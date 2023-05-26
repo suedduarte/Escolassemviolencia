@@ -259,7 +259,6 @@ footer{
     background-color: #3b3b3b;
 }
 
-
 #footer_subscribe{
     display: flex;
     flex-direction: column;
@@ -277,4 +276,69 @@ footer{
     font-size: 0.9;
     padding: 1.5rem;
     font-weight: 100;
+}
+
+@media (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .text-bx{
+        margin-left: -28rem;
+        width: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .text-bx .title {
+        text-align: left;
+        width: 25rem;
+        margin-top: 2rem;
+        margin-bottom: .5rem;
+    }
+
+    .text-bx p{
+        width: 30rem;
+        margin: 0;
+    }
+
+    .img-bx{
+        width: 80%;
+    }
+
+    h2{
+        width: 29rem;
+    }
+
+    iframe{
+        padding-left: 1.2rem;
+        width: 30rem;
+    }
+
+    .galeria{
+        width: 33.2rem;
+    }
+
+    .album{
+        flex-direction: column ;
+        gap: 2rem;
+        margin-left: 8rem;
+    }
+
+    footer{
+        width: 33.9rem;
+        margin-left: -9rem;
+        margin-top: -5rem;
+    }
+
+    #footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer_subscribe{
+       margin-left: 2rem;
+       width: 20rem;
+    }
+
 }
