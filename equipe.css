@@ -275,33 +275,24 @@ footer{
 }
 
 @media (max-width: 768px){
-  
-    .container-1{
+
+    .container{
         display: flex;
         flex-direction: column;
     }
 
-    .container-1 .text-bx{
+    .container .text-bx{
         margin-left: -28rem;
         width: 2rem;
         flex-wrap: wrap;
+       
     }
 
-    .container{
-        width: 32rem;
-        height: 20rem;
-        margin-top: 2rem;
-    }
-
-    .bar{
-        margin-top: rem;
-    }
-
-    .text-bx .title {
+    .text-bx h1 {
         text-align: left;
         width: 25rem;
         margin-top: 2rem;
-        margin-bottom: .8rem;
+        margin-bottom: .5rem;
     }
 
     .text-bx p{
@@ -317,12 +308,14 @@ footer{
         width: 29rem;
     }
 
- 
+    iframe{
+        padding-left: 1.2rem;
+        width: 30rem;
+    }
+
     footer{
-        width: 34.3rem;
-        margin-left: -1rem;
-        margin-top: 30rem;
-        position: absolute;
+        width: 33.9rem;
+        margin-top: 5rem;
     }
 
     #footer-content{
