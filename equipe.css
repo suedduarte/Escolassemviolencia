@@ -273,3 +273,67 @@ footer{
     padding: 1.5rem;
     font-weight: 100;
 }
+
+@media (max-width: 768px){
+  
+    .container-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-1 .text-bx{
+        margin-left: -28rem;
+        width: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .container{
+        width: 32rem;
+        height: 20rem;
+        margin-top: 2rem;
+    }
+
+    .bar{
+        margin-top: rem;
+    }
+
+    .text-bx .title {
+        text-align: left;
+        width: 25rem;
+        margin-top: 2rem;
+        margin-bottom: .8rem;
+    }
+
+    .text-bx p{
+        width: 30rem;
+        margin: 0;
+    }
+
+    .img-bx{
+        width: 80%;
+    }
+
+    h2{
+        width: 29rem;
+    }
+
+ 
+    footer{
+        width: 34.3rem;
+        margin-left: -1rem;
+        margin-top: 30rem;
+        position: absolute;
+    }
+
+    #footer-content{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    #footer_subscribe{
+       margin-left: 2rem;
+       width: 20rem;
+    }
+
+}
